@@ -14,10 +14,12 @@ body{
     font-size: 10px;
 }
 body.active{
-    color:  hsl(0, 0%, 100%);
+    color:hsl(0, 0%, 100%);
     background-color: hsl(230, 17%, 14%);
 }
 header{
+    display: flex;
+    align-items: center;
     height: 80px;
     width: 100%;
     background-color: hsl(225, 100%, 98%);
@@ -28,8 +30,7 @@ header.active{
 
 }
 header div:first-child{
-    float: left;
-   
+    margin-right: auto;
 }
 .dark-mode{
     display: flex;
@@ -203,6 +204,9 @@ footer{
     text-decoration: none;
 }
 @media screen and (max-width:400px) {
+header{
+    flex-direction: column;
+}
 .dark-mode{
     justify-content: flex-start;
     align-items: center;
