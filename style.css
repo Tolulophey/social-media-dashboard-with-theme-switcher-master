@@ -233,7 +233,7 @@ header{
 .dashboard{
     flex-direction: column;
     width: 100%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 .dashboard article{
     width: 100%;
