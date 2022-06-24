@@ -94,7 +94,7 @@ main{
     background-color: hsl(227, 47%, 96%);
     color: hsl(230, 17%, 14%);
     margin: 1% 1% ;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     border-radius: 5px;
 }
 .active article{
@@ -232,10 +232,12 @@ header{
 
 .dashboard{
     flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
 }
 .dashboard article{
     width: 100%;
-    margin:10px;
+    margin:0 auto;
     padding: 10px 0;
 }
 .overview-today {
@@ -247,7 +249,7 @@ header{
 }
 .overview-today article{
     width: 100%;
-    margin: 1% 1% ;
+    margin:0 auto;
     height: 100px;
     padding: 10px 0; 
     border-radius: 5px;
