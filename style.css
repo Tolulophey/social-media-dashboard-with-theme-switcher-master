@@ -233,11 +233,11 @@ header{
 .dashboard{
     flex-direction: column;
     width: 100%;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 .dashboard article{
     width: 100%;
-    margin:0 auto;
+    margin:10px auto;
     padding: 10px 0;
 }
 .overview-today {
